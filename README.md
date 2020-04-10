@@ -12,6 +12,14 @@ Para instalar corretamente sem erros utilize os comandos abaixo:
 
 <ul>
   <li>pip install jspp</li>
+  <li>git clone https://github.com/WhoniXSST/ArchiveCreator/</li>
+  <li>pcd ArchiveCreator</li>
+</ul>
+
+# Executando
+
+<ul>
+  <li>python ArC.py</li>
 </ul>
 
 # Créditos
