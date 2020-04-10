@@ -33,6 +33,7 @@ if ToS() in [ "Y" , "y" ]:
 else:
     print("[x] - Que pena, não podemos continuar por aqui!")
     time.sleep(3)
+    sys.exit()
 
 texto = input("[+] Digite o texto que ficará dentro do arquivo: ")
 simple_create_file(nome, texto)
@@ -52,5 +53,6 @@ if pergunta() in [ "Y", "y" ]:
     change_file_date(nome, ano, mes, dia, hora, minuto, segundo)
 elif pergunta() in [ "N", "n" ]:
     print("[+] Voce selecionou não, saindo do programa!")
+    sys.exit()
 else:
     print("[x] Use somente os parametros \"Y/n\" por favor!")
