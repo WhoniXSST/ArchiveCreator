@@ -1,6 +1,6 @@
 # ArchiveCreator
 
-ArchiveCreator é um programa para ajudar todos os iniciantes e pentester's.
+ArchiveCreator é um programa para ajudar os iniciantes em python e pentester's.
 
 # Como funciona?
 
