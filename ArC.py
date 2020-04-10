@@ -32,7 +32,7 @@ if ToS() in [ "Y" , "y" ]:
     nome = input("[+] Digite o nome do arquivo á criar: ")
 else:
     print("[x] - Que pena, não podemos continuar por aqui!")
-    time.sleep("3")
+    time.sleep(3)
 
 texto = input("[+] Digite o texto que ficará dentro do arquivo: ")
 simple_create_file(nome, texto)
